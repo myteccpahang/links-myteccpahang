@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Titillium+Web:wght@300;400;600&display=swap');
+
+html, body {
+  background: linear-gradient(-45deg, #ff5b3a, #e43535, #ff1111);
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.quote {
+  font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+}
+
+.btn {
+  width: 50%;
+  position: relative;
+  transition: .3s ease-in;
+  z-index: 1;
+}
+
+.btn-links {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: opacity(#ff1111, 0.5);
+  border: 2.5px solid #fff;
+}
+
+.btn-links:hover {
+  background-color: #fff;
+  color: #ff1111;
+}
+
+.copyright {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.icon {
+  color: #fff;
+  font-size: 20px;
+  transition: transform .2s;
+}
+
+footer {
+  margin-top: 3rem;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

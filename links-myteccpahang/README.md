@@ -1,4 +1,4 @@
-# links-myteccpahang
+# mytecc-links
 
 ## Build Setup
 
