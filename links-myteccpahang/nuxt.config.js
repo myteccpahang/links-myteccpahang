@@ -69,7 +69,7 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     baseURL: 'https://admin.myteccpahang.com/api'
-    //baseURL: 'http://127.0.0.1:8000/api' // Local Server
+    // baseURL: 'http://127.0.0.1:8000/api' // Local Server
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -81,5 +81,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  target: 'static'
 }
