@@ -3,27 +3,28 @@ export default {
   head: {
     title: 'Links | MYTECC',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
-      { name: 'keywords', content: 'mytecc, mytecc pahang, links mytecc, uitm raub, mara youth technology computer club' },
-
       // Google Site Verification
       { name: 'google-site-verification', content: 'VgqnxiY7DwzptZwAvG2ecVygXiuKDDblq-7DLMPPMyU' },
 
+      // Basic meta tags
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
+      { hid: 'keywords', name: 'keywords', content: 'mytecc, mytecc pahang, links mytecc, uitm raub, mara youth technology computer club' },
+
       // Open Graph / Facebook
-      { property: 'og:type', content: 'MYTECC links directory' },
-      { property: 'og:url', content: 'https://links.myteccpahang.com' },
-      { property: 'og:title', content: 'Links | MYTECC' },
-      { property: 'og:description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
-      { property: 'og:image', content: '/mytecc-logo.png' },
+      { hid: 'og:type', property: 'og:type', content: 'MYTECC links directory' },
+      { hid: 'og:url', property: 'og:url', content: 'https://links.myteccpahang.com' },
+      { hid: 'og:title', property: 'og:title', content: 'Links | MYTECC' },
+      { hid: 'og:description', property: 'og:description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
+      { hid: 'og:image', property: 'og:image', content: '/mytecc-logo.png' },
 
       // Twitter
-      { property: 'twitter:card', content: 'summary_large_image' },
-      { property: 'twitter:url', content: 'https://links.myteccpahang.com' },
-      { property: 'twitter:title', content: 'Links | MYTECC' },
-      { property: 'twitter:description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
-      { property: 'twitter:image', content: '/mytecc-logo.png' }
+      { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:url', property: 'twitter:url', content: 'https://links.myteccpahang.com' },
+      { hid: 'twitter:title', property: 'twitter:title', content: 'Links | MYTECC' },
+      { hid: 'twitter:description', property: 'twitter:description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
+      { hid: 'twitter:image', property: 'twitter:image', content: '/mytecc-logo.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon-32x32.png' },
