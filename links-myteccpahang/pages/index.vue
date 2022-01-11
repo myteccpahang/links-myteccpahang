@@ -1,7 +1,7 @@
 <template>
   <main class="container">
     <div class="col-xs-1" align="center">
-      <img src="~/assets/img/mytecc-logo.png" alt="MYTECC logo" width="auto" height="130px" class="my-4">
+      <img src="~/assets/img/mytecc-logo.png" alt="MYTECC logo" width="auto" height="130px" class="mt-5 mb-4">
       <h1 class="main-title">
         MARA YOUTH TECHNOLOGY COMPUTER CLUB
       </h1>
@@ -21,7 +21,7 @@
       </p>
       <div v-else>
         <div v-for="(link, index) in links" :key="index">
-          <a :href="link.link_url" target="_blank" class="btn btn-links mb-3 mx-3 p-2 w-75 text-uppercase">{{ link.link_name }}</a>
+          <a :href="link.link_url" target="_blank" class="btn btn-links mb-3 mx-3 p-3 w-75 text-uppercase">{{ link.link_name }}</a>
         </div>
       </div>
     </div>
