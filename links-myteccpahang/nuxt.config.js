@@ -8,6 +8,9 @@ export default {
       { hid: 'description', name: 'description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
       { name: 'keywords', content: 'mytecc, mytecc pahang, links mytecc, uitm raub, mara youth technology computer club' },
 
+      // Google Site Verification
+      { name: 'google-site-verification', content: 'VgqnxiY7DwzptZwAvG2ecVygXiuKDDblq-7DLMPPMyU' },
+
       // Open Graph / Facebook
       { property: 'og:type', content: 'MYTECC links directory' },
       { property: 'og:url', content: 'https://links.myteccpahang.com' },
@@ -33,7 +36,7 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Titillium+Web:wght@300;400;600&display=swap',
         rel: 'stylesheet'
       }
-      ],
+    ],
     script: [
     ]
   },
