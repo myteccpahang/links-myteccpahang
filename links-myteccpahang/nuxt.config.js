@@ -5,6 +5,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'title', name: 'title', content: 'Links | MYTECC Pahang' },
       { hid: 'description', name: 'description', content: 'MARA Youth Technology Computer Club (MYTECC). Here you can find important links for CS110 students. Technology is the future of creativity.' },
       { name: 'keywords', content: 'mytecc, mytecc pahang, links mytecc, uitm raub, mara youth technology computer club' },
 
